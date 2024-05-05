@@ -1,0 +1,21 @@
+---
+import { Image } from 'astro:assets';
+import logo from "../assets/logo.svg";
+---
+
+<body>
+	<header>
+		<nav class="w-full">
+			<div class="flex justify-center lg:justify-between mx-auto items-center lg:px-12 lg:py-6" style="background-color: #f8f7f6;">
+				<div class="flex items-center">
+					<a href="#" class="hover:opacity-70 hover:duration-500 hover:translate-y-1 hover:translate-x-1">
+						<h1>
+							<Image src={logo} class="w-36 p-3" alt="しごろく" />
+						</h1>
+					</a>
+				</div>
+			</div>
+		</nav>
+	</header>
+</body>
+
